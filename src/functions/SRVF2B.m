@@ -24,7 +24,7 @@ end
 
 p = zeros(size(q));
 for i = 1:d
-    tmp = q(:,i).*qnorm';
+    tmp = q(:,i).*qnorm;
     p(:,i) = cumtrapz( tmp/T);
 end
 

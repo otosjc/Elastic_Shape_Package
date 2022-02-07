@@ -1,8 +1,4 @@
 function plotCurve(X,linew,msize,viewvec)
-%- This was edited by Carlos to better fit programming needs
-%- Does not have figure so can be used to either plot or subplot from main
-
-
 % Plot a 2D or 3D curve. For 3D plots, show a cubic spline interpolation 
 % between points for a smoother plot, and also colorize according to 
 % increasing sample point index.

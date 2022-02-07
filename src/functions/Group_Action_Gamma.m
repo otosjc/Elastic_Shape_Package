@@ -1,5 +1,4 @@
 function f_warped = Group_Action_Gamma(f,gamma)
-
 %- This function warps f by gamma, that is f -> f(g)
 
 

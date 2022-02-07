@@ -40,7 +40,6 @@ for i = 1:2
     [~,q2s] = Procrustes_Align_Reflection(q1s,q2s); 
 end
 q2_aligned = q2s/sqrt(InnerProd_Q(q2s,q2s));
-
 D = acos(InnerProd_Q(q2_aligned,q1s));            
 
 

@@ -1,4 +1,8 @@
-karcher_mean_cell.m
 karcher_mean_cell_resamp.m
-karcher_mean_matrix.m
 karcher_mean_matrix_resamp.m
+FunMyKarcherMean.m
+q_to_curve.m
+FindGeodesicVector.m
+Group_Action_by_Gamma_Coord.m
+curve_to_q.m
+InnerProduct.m

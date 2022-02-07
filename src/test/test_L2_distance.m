@@ -22,7 +22,9 @@ curve2 = squeeze(X_evol);
 %time is going down.
 
 tic
-[d1] = dist_L2(curve1,curve2);
+[d1] = dist_L2_with_reflection(curve1,curve2);
+[d2] = dist_L2_wo_reflection(curve1,curve2);
 toc
-
+%these distanccs may or may not be the same. However, d1<=d2 will always
+%hold since it searches over a larger space.
 
